@@ -50,7 +50,7 @@
 	@include describe('oEditorialTypographyTag') {
 
 		@include test('Styles non-link topic tags') {
-			// sass-lint:disable no-qualifying-elements
+			// stylelint-disable selector-no-qualifying-type
 			@include assert {
 				@include output($selector: false) {
 					.my-topic-tag {
@@ -63,7 +63,6 @@
 						font-family: MetricWeb, sans-serif;
 						font-weight: 600;
 					}
-
 					a.my-topic-tag {
 						color: #990f3d;
 						text-decoration: none;
@@ -75,11 +74,11 @@
 					}
 				}
 			}
-			// sass-lint:enable no-qualifying-elements
+			// stylelint-enable selector-no-qualifying-type
 		}
 
 		@include test('Styles topic tags which are links') {
-			// sass-lint:disable no-qualifying-elements
+			// stylelint-disable selector-no-qualifying-type
 			@include assert {
 				@include output($selector: false) {
 					a.my-topic-tag {
@@ -103,7 +102,7 @@
 					}
 				}
 			}
-			// sass-lint:enable no-qualifying-elements
+			// stylelint-enable selector-no-qualifying-type
 		}
 	}
 }
