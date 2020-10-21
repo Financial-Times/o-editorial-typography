@@ -7,10 +7,10 @@
     },
     "main": "main.js",
     "peerDependencies": {
-        "@financial-times/o-colors": "^5.0.0",
-        "@financial-times/o-fonts": "^4.0.0",
-        "@financial-times/o-spacing": "^2.0.0",
-        "@financial-times/o-typography": "^6.0.1"
+        "@financial-times/o-colors": "^100.0.0-3",
+        "@financial-times/o-fonts": "^100.0.0-3",
+        "@financial-times/o-spacing": "^100.0.0-3",
+        "@financial-times/o-typography": "^100.0.0-3"
     },
     "description": "Typography styles for editorial content.",
     "publishConfig": {
