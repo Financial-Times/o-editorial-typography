@@ -126,7 +126,7 @@ Style captions using `o-editorial-typography-caption`.
 Include all o-editorial-typography styles by including the `oEditorialTypography` mixin.
 
 ```scss
-@import "o-editorial-typography/main";
+@import "@financial-times/o-editorial-typography/main";
 
 @include oEditorialTypography();
 ```
@@ -195,7 +195,7 @@ Calling `oEditorialTypography` will output font faces to download custom Financi
 // configure $o-editorial-typography-load-fonts to not include fonts
 $o-editorial-typography-load-fonts: false;
 // import dependencies
-@import 'o-editorial-typography/main';
+@import '@financial-times/o-editorial-typography/main';
 // include css for select fonts manually
 @include oFontsInclude(MetricWeb, semibold);
 @include oFontsInclude(FinancierDisplayWeb, regular);
