@@ -7,15 +7,15 @@
     },
     "browser": "main.js",
     "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-6",
-        "@financial-times/o-fonts": "^100.0.0-6",
-        "@financial-times/o-spacing": "^100.0.0-6",
-        "@financial-times/o-typography": "^100.0.0-6"
+        "@financial-times/o-colors": "^100.0.0-7",
+        "@financial-times/o-fonts": "^100.0.0-7",
+        "@financial-times/o-spacing": "^100.0.0-7",
+        "@financial-times/o-typography": "^100.0.0-7"
     },
     "description": "Typography styles for editorial content.",
     "publishConfig": {
         "registry": "http://localhost:4873"
     },
-    "version": "100.0.0-6",
+    "version": "100.0.0-7",
     "name": "@financial-times/o-editorial-typography"
 }
