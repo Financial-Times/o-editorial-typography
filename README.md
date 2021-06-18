@@ -1,4 +1,4 @@
-# o-editorial-typography [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](#licence)
+# o-editorial-typography
 
 _Typography styles for editorial content._
 
@@ -202,6 +202,13 @@ $o-editorial-typography-load-fonts: false;
 // include css for all editorial typography
 @include oEditorialTypography();
 ```
+
+## Migration guide
+
+State | Major Version | Last Minor Release | Migration guide |
+:---: | :---: | :---: | :---:
+✨ active | 2 | N/A | [migrate to v2](MIGRATION.md#migrating-from-v1-to-v2) |
+⚠ maintained | 1 | 1.1 | N/A |
 
 ## Contact
 
